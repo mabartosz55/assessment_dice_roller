@@ -11,21 +11,23 @@
 <body>
     <div>
         <label for="uname"></label>
-        <input type="text" id="numberRolls" name="name" placeholder="number of rolls">
+        <input type="number" id="numberRolls" name="name" placeholder="number of rolls">
         <button id="submit">ROLL!</button>
     </div>
-    <div id="sumOfRolls">The sum of rolls is <span>0</span>
+    <div id="sumOfRolls">The Total of the Rolls are <span id="roll">0</span>
     </div>
     <div>
-        <button>Show All Rolls</button>
+        <button id="showAllRolls">Show All Rolls</button>
     </div>
-    <div class="totalRolls"><span>0</span>
-    </div>
-    <ol>
+
+    <ol id="newDiceString">
         <li>...</li>
        
 
     </ol>
+
+    <button id ="reset"> RESET</button>
+
 <script src="main.js"></script>
 
 </body>
